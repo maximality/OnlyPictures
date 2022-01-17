@@ -778,9 +778,6 @@ extension UIView: CornerRadius {
     }
     
     func makeCountBorderWithCornerRadius(radius: CGFloat, countWidth: CGFloat, borderColor: UIColor, borderWidth: CGFloat) {
-        
-        let rect = CGRect.init(x: 0, y: 0, width: countWidth, height: SIZE_OF_IMAGEVIEWS)
-        self.createBorderMark(rect: rect, radius: radius, borderColor: borderColor, borderWidth: borderWidth)
     }
     
     func createBorderMark(rect: CGRect, radius: CGFloat, borderColor: UIColor, borderWidth: CGFloat) {
